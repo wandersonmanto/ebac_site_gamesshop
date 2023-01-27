@@ -37,21 +37,21 @@ header nav li a {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 section .container {
-    display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+
 }
 
 .brands-list img {
